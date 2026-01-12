@@ -62,8 +62,6 @@ The script will automatically locate `albums.json` anywhere under the root direc
 
 ```bash
 python3 organize_flickr_export.py
-That’s it.
-
 Output
 After running, you will have:
 
@@ -92,14 +90,3 @@ This script reconstructs that structure reliably, even for very large and fragme
 
 License
 MIT
-
-sql
-Copy code
-
-If you want, I can also:
-- Add a `--dry-run` flag
-- Add a progress bar
-- Add a copy-instead-of-move option
-- Add filesystem-safe album name normalization
-
-Just say the word.
