@@ -60,22 +60,23 @@ The script will automatically locate `albums.json` anywhere under the root direc
 1. Place `organize_flickr_export.py` in the **root** of your Flickr export
 2. Run:
 
-```bash
-python3 organize_flickr_export.py
+```python3 organize_flickr_export.py```
 Output
+
 After running, you will have:
 
-yaml
-Copy code
 Albums/
 ├── Vacation 2017/
 ├── Family/
 ├── Street Photography/
 ├── ...
 └── No Album/
+
+
 Each photo will exist in exactly one folder.
 
 Behavior Notes
+
 Photos in multiple albums are moved to the first album encountered
 
 Photos not listed in albums.json go to No Album
@@ -85,8 +86,10 @@ Files already moved are skipped on re-run
 Only files matching Flickr’s _PHOTOID_o.jpg naming pattern are processed
 
 Why This Exists
+
 Flickr’s official export does not preserve album structure on disk.
 This script reconstructs that structure reliably, even for very large and fragmented exports.
 
 License
+
 MIT
