@@ -63,7 +63,7 @@ The script will automatically locate `albums.json` anywhere under the root direc
 ```bash
 python3 organize_flickr_export.py
 ```
-Output
+## Output
 
 After running, you will have:
 
@@ -77,7 +77,7 @@ Albums/
 
 Each photo will exist in exactly one folder.
 
-Behavior Notes
+## Behavior Notes
 
 Photos in multiple albums are moved to the first album encountered
 
@@ -87,11 +87,11 @@ Files already moved are skipped on re-run
 
 Only files matching Flickr’s _PHOTOID_o.jpg naming pattern are processed
 
-Why This Exists
+## Why This Exists
 
 Flickr’s official export does not preserve album structure on disk.
 This script reconstructs that structure reliably, even for very large and fragmented exports.
 
-License
+## License
 
 MIT
