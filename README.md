@@ -60,7 +60,9 @@ The script will automatically locate `albums.json` anywhere under the root direc
 1. Place `organize_flickr_export.py` in the **root** of your Flickr export
 2. Run:
 
-```python3 organize_flickr_export.py```
+```bash
+python3 organize_flickr_export.py
+```
 Output
 
 After running, you will have:
