@@ -14,8 +14,6 @@ This script is designed specifically for **real-world Flickr image exports**, in
 - Moves exported Flickr **images and videos** into their matching albums
 - Places unassigned files into `Albums/No Album`
 - Safe to re-run (no duplicates, idempotent)
-- No API keys, no login, no external dependencies
-- Works entirely offline using Flickr’s export metadata
 
 ---
 
