@@ -31,7 +31,6 @@ This script is designed specifically for **real-world Flickr image exports**, in
 
 - Python 3.8+
 - Official **Flickr image export**
-- Linux / macOS / WSL (Windows via WSL recommended)
 
 ---
 
