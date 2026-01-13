@@ -46,9 +46,6 @@ Flickr/
 │ └── photos_comments_part001.json
 └── organize_flickr_export.py
 
-yaml
-Copy code
-
 The script will automatically locate `albums.json` anywhere under the root directory.
 
 ---
