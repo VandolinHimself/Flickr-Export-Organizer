@@ -1,37 +1,39 @@
-# Flickr Export Album Organizer
+# Flickr Image Export Album Organizer
 
-Organizes a **Flickr official data export** by recreating your Flickr **albums as folders** and moving photos into them.  
-Photos that are not part of any album are placed into a **No Album** folder.
+Organizes an **official Flickr image export** by reconstructing your Flickr **albums as folders** and moving exported images and videos into the correct album directories.  
+Any Flickr photos or videos that are **not assigned to an album** are placed into a **No Album** folder.
 
-This script is built specifically to handle Flickr’s real-world export behavior, including very large archives.
+This script is designed specifically for **real-world Flickr image exports**, including very large archives split across many folders.
 
 ---
 
 ## Features
 
-- Recursively scans **all subdirectories**
-- Recreates Flickr albums as folders
-- Moves photos into their corresponding albums
-- Places unassigned photos into `Albums/No Album`
-- Works with **70,000+ photos**
-- Safe to re-run (no duplicates)
+- Recursively scans **all subdirectories** of a Flickr export
+- Recreates Flickr **albums as folders**
+- Moves exported Flickr **images and videos** into their matching albums
+- Places unassigned files into `Albums/No Album`
+- Handles **70,000+ Flickr images/videos**
+- Safe to re-run (no duplicates, idempotent)
 - No API keys, no login, no external dependencies
+- Works entirely offline using Flickr’s export metadata
 
 ---
 
-## Works With Flickr Exports That:
+## Works With Flickr Image Exports That:
 
-- Split photos across many `data-download-*` folders
-- Store metadata JSON files in nested directories
-- Do not preserve album structure
+- Split files across many `data-download-*` folders
+- Store album and photo metadata JSON files in nested directories
+- Do **not** preserve album structure on disk
 - Rename files using Flickr photo IDs
+- Include mixed media (JPEG, MP4, MOV, 3GP, etc.)
 
 ---
 
 ## Requirements
 
 - Python 3.8+
-- Official Flickr data export
+- Official **Flickr image export**
 - Linux / macOS / WSL (Windows via WSL recommended)
 
 ---
